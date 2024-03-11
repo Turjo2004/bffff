@@ -1,0 +1,405 @@
+/* thirdpage.css */
+.nav-container{
+  display: flex;
+}
+
+.nav-logo-content img{
+  width: 250px;
+}
+
+.nav-text-content{
+  display: flex;
+  background-color: #0d242f;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  width: 100%;
+}
+
+.term-info{
+  display: flex;
+  gap: 30px;
+}
+
+.media-text{
+  display: flex;
+  gap: 30px;
+}
+
+.signup-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-icon li img{
+  width: 20px;
+}
+
+.signup-icon li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+.media-text li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.term-info li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-second-text-content{
+  display: flex;
+  gap: 80px;
+}
+.horizontal-line {
+  border: 2px solid gray;
+  flex-grow: 1;
+}
+
+.fetured-section {
+  display: flex;
+  align-items: center;
+  margin: 80px 100px;
+
+}
+
+.shpae-p {
+  width: 170px;
+  height: 60px;
+  transform: skew(-20deg);
+  background: rgb(255, 196, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shpae-p h1 {
+  transform: skew(20deg);
+  font-size: 18px;
+  font-weight: 600;
+}
+/* top picks details section */
+.top-picks-container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.text-all-content-top-picks{
+  width: 50%;
+}
+
+.side-field-image{
+  background-image: url('./images/image-one.jpg');
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 880px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: grey;;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.text-field-image-content-container{
+  margin-top: 670px;
+  margin-left: 20px;
+}
+
+.time-text-field{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(247, 194, 36);
+}
+
+.dot-color {
+  height: 5px;
+  width: 5px;
+  background-color: rgb(247, 194, 36);
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.text-field-image-content-container h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-top: 5px;
+}
+
+.top-picks{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.color-text-top-pick{
+  color: rgb(247, 194, 36);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.date-seventen-feb{
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.young-sensation{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.young-text-inside-text{
+  margin-bottom: 50px;
+  
+}
+
+.legendary-h1{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+/* footer class */
+
+.footer-container {
+  background-color: #0d242f;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.logo-container .logo-element img {
+  width: 60px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+
+.logo-container .logo-element h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.logo-container .logo-element p {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.vertical-line {
+  border-left: 1px solid #bfc9db;
+  height: 495px;
+}
+
+.sporst-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.sporst-container p {
+  color: #bfc9db;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.access-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.access-container p {
+  color: #bfc9db;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.about-container p {
+  color: #bfc9db;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-second-color {
+  background-color: #081d28;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 550px;
+}
+
+.footer-second-color p {
+  color: #a0a7b4e7;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.social-logo-container {
+  display: flex;
+  gap: 15px;
+}
+
+.social-logo-container img {
+  width: 35px;
+}
+
+.footer-class {
+  border-bottom: 10px solid #FF3F3E;
+  margin-top: 50px;
+}
+
+.conatiner-main-image{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.centerd{
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:  #0D242F;
+  padding: 27px;
+  width: 800px;
+  
+}
+.women_image{
+  height: 700px;
+  width: 100%;
+}
+.womens-text{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.womens-text-extended{
+  color: #FF3F3E;
+  
+  
+}
+.updates{
+  padding-top: 10px;
+  padding-left: 100px;
+
+}
+.updates-text {
+  border-left: 5px solid #FF3F3E; 
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Premier-section{
+  display: flex;
+  padding: 80px;
+  gap: 30px;
+  padding-left: 100px;
+  margin-top: -65px;
+ 
+}
+.profile{
+  width: 700px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+  
+  
+}
+.profile-extend{
+  width: 800px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  display: inline-block;
+  vertical-align: top;
+  background-color: 
+  #F4F4F4;
+
+}
+.profile-picture {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.mutual-friends-row {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  color: #B6B9CA;
+}
+.football-hours-two{
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+
+}
+.football-text{
+  color:  #FF3F3E;
+  font-weight: bold;
+}
+.hours{
+  color: #B6B9CA;
+}
+.hours-extend{
+  color: #B6B9CA;
+  padding-left: 10px;
+
+}
+.mutual-friends{
+  color: #000000;
+}
+.premier-header{
+  background-color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
+  
+
+}

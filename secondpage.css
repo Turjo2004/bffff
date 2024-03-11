@@ -1,0 +1,469 @@
+/* secondpage.css */
+/* 2nd page design css */
+/* navbar design section */
+.nav-container{
+  display: flex;
+}
+
+.nav-logo-content img{
+  width: 250px;
+}
+
+.nav-text-content{
+  display: flex;
+  background-color: #0d242f;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  width: 100%;
+}
+
+.term-info{
+  display: flex;
+  gap: 30px;
+}
+
+.media-text{
+  display: flex;
+  gap: 30px;
+}
+
+.signup-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-icon li img{
+  width: 20px;
+}
+
+.signup-icon li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+.media-text li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.term-info li a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-second-text-content{
+  display: flex;
+  gap: 80px;
+}
+
+/* Live now container */
+
+.live-now-text{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.live-now-div-container img{
+  width: 110px;
+  
+}
+
+.live-now-div-container{
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.live-now-text-content p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.live-now-time{
+  color: grey;
+  font-weight: 400 !important;
+}
+
+.live-now-div-container{
+  background-color: #f4f5f9;
+  width: 310px;
+  border-bottom: 3px solid #FF3F3E;
+}
+
+.ucl-match-video{
+  display: flex;
+  gap: 20px;
+}
+
+.all-video-container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+.slider-icon img{
+  width: 20px;
+  padding-top: 50px;
+}
+
+.first-content-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.fixtures-btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0e2c3a;
+  padding: 5px 25px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+}
+
+.res-btn {
+  color: #0e2c3a;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f6f7fb;
+  padding: 5px 25px;
+  border: 1px solid #eaecf4;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+}
+
+.fixtures-btn-container{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.btn-container-fixtures{
+  margin-left: 140px;
+  margin-top: 30px;
+}
+
+.first-content-container-with-live-video{
+  background-color: #f4f5f9;
+}
+
+
+/* TOdays content */
+.lo {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.match-summary-container {
+  background-color: #f4f5f9;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.match-summary-container-text-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.match-summary-container-text-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.match-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.match-logo-image {
+  width: 35px;
+}
+
+.celeta-logo {
+  width: 20px;
+}
+
+.match-logo-container p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.match-summary-container-p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.match-summary-container-with-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all-match-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-time {
+  color: #FF3F3E;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.spanish-la-liga{
+  margin-top: 40px;
+}
+
+
+/* drop down */
+.dropdown-element img{
+  width: 20px;
+  padding-bottom: 15px;
+}
+
+.dropdown-element p{
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown-element{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border: 1px solid grey;
+  width: 200px;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.all-tournmentc-today-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-hold-container{
+  display: flex;
+  gap: 10px;
+}
+
+/* latest video content */
+.latest-video-conainer img {
+  width: 130px;
+  height: 80px;
+}
+
+.latest-videos-side-text-content h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+#premier-league {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+  
+}
+
+#hours-ago {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(206, 195, 195);
+}
+
+.latest-videos-side-text-content-p {
+  display: flex;
+  gap: 10px;
+}
+
+.latest-video-conainer {
+  display: flex;
+  gap: 20px;
+}
+
+.latest-video-content-container p{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.making-history-part img{
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+.podcast-image-part img{
+  width: 400px;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+
+.second-content-container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.latest-video-bg-color{
+  background-color: #f4f5f9;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+
+
+
+/* footer class */
+.footer-container {
+  background-color: #0d242f;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.logo-container .logo-element img {
+  width: 60px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+
+.logo-container .logo-element h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.logo-container .logo-element p {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.vertical-line {
+  border-left: 1px solid #bfc9db;
+  height: 495px;
+}
+
+.sporst-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.sporst-container p {
+  color: #bfc9db;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.access-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.access-container p {
+  color: #bfc9db;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about-container h1 {
+  color: tomato;
+  font-size: 18px;
+  margin-bottom: 103px;
+  padding-top: 60px;
+}
+
+.about-container p {
+  color: #bfc9db;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-second-color {
+  background-color: #081d28;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 550px;
+}
+
+.footer-second-color p {
+  color: #a0a7b4e7;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.social-logo-container {
+  display: flex;
+  gap: 15px;
+}
+
+.social-logo-container img {
+  width: 35px;
+}
+
+.footer-class {
+  border-bottom: 10px solid #FF3F3E;
+  margin-top: 50px;
+}
